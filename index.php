@@ -5,7 +5,7 @@ if (isset($_GET['url'])) {
         echo "URL undefined!";
     } else {
         $url = $_GET['url'];
-        $url = $_SERVER['HTTP_HOST'];."/server.php?url=".urlencode($url);
+        $url = $_SERVER['HTTP_HOST']."/server.php?url=".urlencode($url);
         echo '
 <!DOCTYPE html>
 <html>
