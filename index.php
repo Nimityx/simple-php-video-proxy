@@ -10,12 +10,9 @@ if (isset($_GET['url'])) {
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="robots" content="none" />
-        <meta name="googlebot" content="none" />
-        <link rel="icon" type="image/png" href="https://edpuzzle.imgix.net/favicons/favicon-32.png">
-        <title>Edpuzzle</title>
+        <title>PHP Video Proxy</title>
     </head>
-    <body bgcolor="#222222">
+    <body>
         <video controls autoplay src="'.$url.'" style="position:fixed;width:100%;height:100%;top:0;bottom:0;left:0;right:0;">Your browser does not support the video tag.</video>
     </body>
 </html>';
