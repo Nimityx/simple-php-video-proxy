@@ -1,4 +1,4 @@
-# php-video-proxy
+# simple-php-video-proxy
 Simple PHP Video Proxy
 
 Video URL: ```{HOSTNAME}/?url={URL_TO_PROXY}```
