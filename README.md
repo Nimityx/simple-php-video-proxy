@@ -7,5 +7,7 @@ Example: [https://videoproxy.miniurl.repl.co/?url=https%3A%2F%2Fcontent.jwplatfo
 
 This video proxy using the simplest method, file_get_contents(). This video proxy isn't suitable for large size video. If the video doesn't start, reload multiple times until the video is playabale.
 
+Try this proxy: https://nimityx.github.io/tools/video-proxy.html
+
 ## LICENSE
 [MIT](https://github.com/Nimityx/simple-php-video-proxy/blob/main/LICENSE)
